@@ -6,66 +6,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="first.css" />
+    <link rel="stylesheet" href="first.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div class="navbar">
-        <ul>
-            <li>
-                <a href="">Home</a>
-            </li>
-            <li>
-                <a href="">Chart</a>
-            </li>
-            <li>
-                <a href="">Converter</a>
-            </li>
-            <li>
-                <a href="">Artical</a>
-            </li>
-            <li>
-                <a href="">About us</a>
-            </li>
-        </ul>
-    </div>
-    <caption>
-        METRIC CONVERSION CHART
-    </caption>
-    <!-- Div For Length Conversion Chart -->
-    <div class="mainchart">
-        <div class="chart">
-            <table>
 
+
+<body>
+
+     <div class="<div class="container-fluid">
+        
+   
+        <div class="row">
+            <div class="col">
+                <div class="navbar">
+                    <img src="/HMIT/images/LOGO.png" alt="" height="50px">
+                    
+                    <h2>
+                        METRIC CONVERSION CHART
+                    </h2>
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">Chart</a>
+                        </li>
+                        <li>
+                            <a href="">Converter</a>
+                        </li>
+                        <li>
+                            <a href="">Artical</a>
+                        </li>
+                        <li>
+                            <a href="">about us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+
+ 
+
+    <!-- Chart starts From Here -->
+  
+    <!-- Div For Length Conversion Chart -->
+    <div class="container  mainchart">
+        <div class="chart">
+            <table class="length">
                 <thead>
-                    <th colspan="3">Length Conversion</th>
+                    <th colspan="4">Length Conversion</th>
 
                     <th colspan="2">Formula</th>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="R1">
                         <td>Inches</td>
                         <td>To</td>
                         <td>Milimeters</td>
                         <td>1 Inches in length is = 25.4mm</td>
                         <td>Multiply the inch value by 25.4 and vice versa</td>
                     </tr>
-                    <tr>
+                    <tr Class="R1">
                         <td>Foot</td>
                         <td>To</td>
                         <td>Meter</td>
                         <td>1 foot in length is = 0.3 meter</td>
                         <td>Divide the foot value by 3.281 and vice versa</td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>Yard</td>
                         <td>To</td>
                         <td>Meter</td>
                         <td>1 Yard in length is = 1.093 meter</td>
                         <td>Multiply the Yard value by 1.094 and vice versa</td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>Mile</td>
                         <td>To</td>
                         <td>Kilometer</td>
@@ -79,40 +100,41 @@
         <!-- Div for Area Conversion Chart -->
 
         <div class="chart">
-            <table>
+            <table class="Area">
                 <thead>
-                    <th>Area Conversion</th>
+                    <th colspan="4">Area Conversion</th>
+                    <th colspan="2">Formula</th>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="R1">
                         <td>Square Inch</td>
                         <td>To</td>
                         <td>Square Milimeter</td>
                         <td>1 square Inch in Area is = 645.16 square milimeter</td>
                         <td>Multiply the square inch Value by 645.2 and Vice versa</td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>square Feet</td>
                         <td>To</td>
                         <td>Square Meter</td>
                         <td>1 Square feet in Area is = 0.092 Square Meters</td>
                         <td>MUltiply the Square Feet Value by 10.764 and Vice Versa</td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>Square Yard</td>
                         <td>To</td>
                         <td>Square Meter</td>
                         <td>1 Square yard in Area is = 0.836127 Square Meter</td>
                         <td>Multiply the length value by 1.196 And Vice Versa</td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>Acres</td>
                         <td>To</td>
                         <td>Hectares</td>
                         <td>1 Acre in Area is = 0.404686 Hectares</td>
                         <td>Divide the Acre value by 2.471 and Vice Versa</td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>Square Miles</td>
                         <td>TO</td>
                         <td>Square Kilometer</td>
@@ -127,33 +149,35 @@
 
         <!-- Div For Volume Conversion Chart -->
         <div class="chart">
-            <table>
+            <table class="Volume">
                 <thead>
-                    <th>Volume Conversion</th>
+                    <th colspan="4">Volume Conversion</th>
+                    <th colspan="2">Formula</th>
+
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="R1">
                         <td>FLuid Ounces</td>
                         <td>To</td>
                         <td>Millimeter</td>
                         <td>1 fluid Ounce in Volume is = 29.5735 mm</td>
                         <td>Multiply the Fluid ounce value by 29.574 and Vice versa</td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>Gallon</td>
                         <td>To</td>
                         <td>Liters</td>
                         <td>1 US Liquid Gallon is = 3.78541 Liters</td>
                         <td>Multiply the Gallon Volume Value by 3.785 and Vice Versa</td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>Cubic Foot</td>
                         <td>To</td>
                         <td>Cubic Meter</td>
                         <td>1 Cubic foot in Volume is = 0.0283168 Cubic Meter</td>
                         <td>Divide the Cubic foot Volume Value by 35.315 and vice versa</td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>Cubic Yards</td>
                         <td>To</td>
                         <td>Cubic Meter</td>
@@ -169,28 +193,30 @@
         <!-- Div for Mass Conversion Chart -->
 
         <div class="chart">
-            <table>
+            <table class="Mass">
                 <thead>
-                    <th>Mass Conversion</th>
+                    <th colspan="4">Mass Conversion</th>
+                    <th colspan="2">Formula</th>
+
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="R1">
                         <td>Ounces</td>
                         <td>To</td>
                         <td>Grams</td>
                         <td>1 Ounce in mass is = 28.3495 grams</td>
                         <td>
-                            For an Approximate result ,Multiply the Ounce mass value by 28.35 and Vice Versa
+                            Multiply the Ounce mass value by 28.35 and Vice Versa
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>Pound</td>
                         <td>To</td>
                         <td>KiloGram</td>
                         <td>1 Pound in mass is = 0.453592 Kilograms</td>
                         <td>Divide the Pound mass value by 2.205 and Vice Versa</td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>Short tons (2000 lbs.)</td>
                         <td>To</td>
                         <td>Mega Grams</td>
@@ -203,19 +229,21 @@
 
         <!-- Div For Temperature Conversion Chart -->
         <div class="chart">
-            <table>
+            <table class="Temp">
                 <thead>
-                    <th>Temperature conversion</th>
+                    <th colspan="4">Temperature conversion</th>
+                    <th colspan="2">Formula</th>
+
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="R1">
                         <td>Celcius</td>
                         <td>TO</td>
                         <td>Farhenheit</td>
                         <td>0 Celcius Degrees is = 32 Farhenheit</td>
                         <td>(0°C × 9/5) + 32 = 32°F</td>
                     </tr>
-                    <tr>
+                    <tr class="R1">
                         <td>Farhenheit</td>
                         <td>To</td>
                         <td>Celcius</td>
@@ -227,14 +255,16 @@
         </div>
     </div>
 
-
-
-
-
+<!-- Chart Ends Here -->
 
 
 
 
 </body>
-
+<footer>
+    <img src="/HMIT/images/LOGO.png" alt="" height="300px">
+    <h2>
+        METRIC CONVERSION CHART
+    </h2>
+</footer>
 </html>
