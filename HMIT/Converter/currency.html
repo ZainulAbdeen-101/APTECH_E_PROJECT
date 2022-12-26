@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <script>
+        
+        const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://currency-converter5.p.rapidapi.com/currency/convert?format=json&from=AUD&to=CAD&amount=1",
+	"method": "GET",
+	"headers": {
+		"X-RapidAPI-Key": "26828f2c6amsh125f3694fd2e958p191c26jsn887d1a853671",
+		"X-RapidAPI-Host": "currency-converter5.p.rapidapi.com"
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
+        </script>
+</body>
+</html>

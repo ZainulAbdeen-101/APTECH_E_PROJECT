@@ -9,7 +9,7 @@
 }
 body{
     /* background: url("/HMIT/images/pexels-ekaterina-bolovtsova-6077797.jpg"); */
-    background-size: auto 900px;
+    background-size: auto 912px;
     background-repeat: no-repeat;
 }
 
@@ -19,6 +19,7 @@ body{
 }
 .top nav ul li a{
   border-radius: 5px;
+ 
    
 }
 .top nav ul li a:hover{
@@ -40,4 +41,10 @@ body{
 }
 .mybtn:hover{
     background-color: #292F36;
+}
+.h{
+    padding-left: 60px;
+}
+.u{
+    padding-left: 100px;
 }
