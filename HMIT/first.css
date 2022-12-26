@@ -36,7 +36,7 @@
      border: 1px solid #4ECDC4; 
     border-radius: 10px;
     color: white;
-    padding: 9px 20px;
+    padding: 9px 10px;
 
     
 }
@@ -65,9 +65,7 @@ color:#FFFFFF;
     margin-top: 50px;
   
 }
-.chart {
- 
-}
+
 
 .length{
     margin: auto;
@@ -131,10 +129,3 @@ margin: auto;
 }
 /* Chart CSS Ends Here */
 
-footer{
-    margin-top: 50px;
-    background-color: #292F36;
-    height: 450px;
-    display: flex;
-    color: white;
-}
