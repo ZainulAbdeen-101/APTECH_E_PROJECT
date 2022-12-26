@@ -1,4 +1,43 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); 
+
 * {
     margin: 0;
+ 
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    /* background: url("/HMIT/images/pexels-ekaterina-bolovtsova-6077797.jpg"); */
+    background-size: auto 900px;
+    background-repeat: no-repeat;
+}
+
+.top{
+  
+    color: white;
+}
+.top nav ul li a{
+  border-radius: 5px;
+   
+}
+.top nav ul li a:hover{
+    background-color: #4ECDC4;
+  border-radius: 5px;
+}
+
+
+
+.b{
+    margin-top: 100px;
+}
+
+
+.mybtn{
+    background-color: #4ECDC4;
+    border: none;
+    
+}
+.mybtn:hover{
+    background-color: #292F36;
 }
