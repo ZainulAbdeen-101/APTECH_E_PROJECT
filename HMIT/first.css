@@ -1,44 +1,48 @@
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-   
-}
-
-/* navBar CSS starts from Here */
-.navbar{
-    
-    background-color:#292F36;
-    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    /* navBar CSS starts from Here */
+    /* 
+.navbar {
+    background-color: #292F36;
     color: white;
 }
+
 .navbar ul {
     list-style: none;
     display: flex;
-   
 }
 
 .navbar ul li {
-    
     padding-left: 20px;
     padding-top: 10px;
-    
 }
 
-.navbar ul li a  {
+.navbar ul li a {
     text-decoration: none;
     /* background-color: #4ECDC4; */
+<<<<<<< HEAD
      border: 1px solid #4ECDC4; 
     border-radius: 10px;
     color: white;
     padding: 9px 10px;
+=======
+    /* 
+border: 1px solid #4ECDC4;
+border-radius: 10px;
+color: white;
+padding: 9px 20px;
+>>>>>>> 99894ba5a09da81d310689157a57e95fed01e8e1
 
+}
+.navbar ul li a:hover {
+    background-color: #4ECDC4;
+} */
     
+<<<<<<< HEAD
 }
 .navbar ul li a:hover{
     background-color:#4ECDC4;
@@ -129,3 +133,89 @@ margin: auto;
 }
 /* Chart CSS Ends Here */
 
+=======
+    */ .bg {
+        background-color: #292F36;
+        color: #FFF;
+    }
+    /* NavBar CSS ends Here */
+    /* Chart CSS Starts From Here */
+    
+    .mainchart {
+        background-color: #292F36;
+        color: #FFFFFF;
+        border: 5px solid #4ECDC4;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    
+    .length {
+        margin: auto;
+    }
+    
+    .Area {
+        margin: auto;
+    }
+    
+    .Volume {
+        margin: auto;
+    }
+    
+    .Mass {
+        margin: auto;
+    }
+    
+    .Temp {
+        margin: auto;
+    }
+    
+    .length thead th {
+        text-align: center;
+        font-size: x-large;
+        font-weight: 700;
+        padding: 20px;
+    }
+    
+    .Area thead th {
+        text-align: center;
+        font-size: x-large;
+        font-weight: 700;
+        padding: 20px;
+    }
+    
+    .Volume thead th {
+        text-align: center;
+        font-size: x-large;
+        font-weight: 700;
+        padding: 20px;
+    }
+    
+    .Mass thead th {
+        text-align: center;
+        font-size: x-large;
+        font-weight: 700;
+        padding: 20px;
+    }
+    
+    .Temp thead th {
+        text-align: center;
+        font-size: x-large;
+        font-weight: 700;
+        padding: 20px;
+    }
+    
+    .R1 td {
+        border: 1px solid #4ECDC4;
+        padding: 7px;
+        text-align: center;
+    }
+    /* Chart CSS Ends Here */
+    
+    footer {
+        margin-top: 50px;
+        background-color: #292F36;
+        height: 450px;
+        display: flex;
+        color: white;
+    }
+>>>>>>> 99894ba5a09da81d310689157a57e95fed01e8e1
